@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image:url(./maxres2.jpg);
+    background-size: cover;
+    border:5px groove rgb(73, 235, 73);
+    
+
+}
+
+.Parent {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    color: white;
+    font-style: italic;
+    margin: 15px;
+
+}
+.child{
+    
+    border:10px solid rgb(235, 33, 33);
+    border-width: 5px;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.child1{
+    height: auto;
+    padding-left: 25px;
+    padding-top:18px;
+    font-size: 30px;
+}
+.child p{
+    margin-top: 0px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+.child2{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    top: 24px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.child3{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 15px;
+    margin-right: 28px;
+    
+}
+.child3 p{
+    padding-top: 8px;
+}
+.container {
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+}
+.circle{
+   width: 420px;
+   height: 420px;
+   border: 6px solid grey;
+   border-radius: 50%;
+   margin-right: 120px;
+   margin-top: 280px;
+   text-align: center;
+   text-decoration:underline;
+   font-weight:bold;
+   font-style: italic;
+   font-size:25px;
+   background-color: rgb(72, 158, 139);
+    
+  
+}
+.circle hr{
+
+   margin: 0px 3px 15px;
+   border: 1px solid rgb(201, 197, 197);
+}
+.circletext{
+  
+    padding-top: 100px;   
+}
+
+
+.box{
+    width: 500px;
+    height:auto;
+    border: 5px dashed rgb(253, 37, 37);
+    font-size: 15px;
+    text-align: center;
+    color: rgb(241, 66, 66);
+    background-color:white;
+    margin-right: 150px;
+     margin-top: 80px; 
+
+   
+}
+form h1 {
+    padding: 20px;
+}
+
+form label{
+    font-size:25px;
+}
+form input{
+    text-align: center;
+    width: 230px;
+}
+form button{
+    width: 100px;
+    font-size: 15px;
+}
+form hr{
+    border: 2px solid rgb(173, 169, 169);
+    margin-bottom: 20px;    
+    
+}
+.Menu-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 40px;
+
+
+}
+
+.menu{
+    width: 350px;
+    height:40px ;
+    border:10px solid rgb(235, 33, 33);
+    border-width: 5px;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 28px;
+    color: white;
+    /* margin-left: 500px;
+    margin-top: 24px; */
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+      
+}
+    
+.cardbox{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 60px;
+    color: rgb(8, 8, 110);
+    
+    
+}
+.item{
+    width: 350px;
+    height: 250px;
+    border: 2px solid green;
+    background-color: rgb(48, 238, 252);
+    border-radius: 40px;
+    text-align: center;
+    padding-top:20px;
+    
+}
+ul{
+    margin:30px;
+}
+.lastitem{
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+
